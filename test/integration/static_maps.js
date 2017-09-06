@@ -30,6 +30,7 @@ describe('static_maps', function() {
                 snapToGrid: false,
                 clipByBox2d: false, // this requires postgis >=2.2 and geos >=3.5
                 scale_factors: [1, 2],
+                metrics: true, //requires compatible node-mapnik and mapnik
                 limits: {
                     render: 0,
                     cacheOnTimeout: true

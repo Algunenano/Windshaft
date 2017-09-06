@@ -22,6 +22,7 @@ module.exports.renderer = {
         metatile: 1,
         bufferSize: 64,
         scale_factors: [1, 2],
+        metrics: false, //Requires mapnik and node-mapnik compatible releases
         limits: {
             render: 0,
             cacheOnTimeout: true
