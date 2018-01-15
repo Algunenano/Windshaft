@@ -9,7 +9,7 @@ describe('torque png renderer', function() {
 
     describe('tiles', function() {
 
-        var IMAGE_TOLERANCE_PER_MIL = 20;
+        var IMAGE_TOLERANCE_PER_MIL = 30;
 
         var torquePngPointsMapConfig =  {
             version: '1.2.0',

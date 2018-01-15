@@ -5,7 +5,7 @@ const zlib = require('zlib');
 const http = require('http');
 const assert = require('../support/assert');
 const TestClient = require('../support/test_client');
-const IMAGE_TOLERANCE_PER_MIL = 20;
+const IMAGE_TOLERANCE_PER_MIL = 30;
 const fixtureFile = './test/fixtures/torque/populated_places_simple_reduced-marker-file-2.2.1.png';
 const fixtureFileCairo = './test/fixtures/torque/populated_places_simple_reduced-marker-file-2.2.1-cairo-lt-1.14.png';
 
