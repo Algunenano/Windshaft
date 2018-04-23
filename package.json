@@ -21,9 +21,9 @@
         "Daniel Garcia Aubert <dgaubert@carto.com>"
     ],
     "dependencies": {
-        "@carto/mapnik": "3.6.2-carto.8",
-        "@carto/tilelive-bridge": "cartodb/tilelive-bridge#2.5.1-cdb7",
-        "abaculus": "cartodb/abaculus#2.0.3-cdb8",
+        "@carto/mapnik": "github:Algunenano/node-mapnik#cache_move",
+        "@carto/tilelive-bridge": "github:Algunenano/tilelive-bridge#cache_move",
+        "abaculus": "github:Algunenano/abaculus#cache_move",
         "canvas": "cartodb/node-canvas#1.6.2-cdb2",
         "carto": "cartodb/carto#0.15.1-cdb3",
         "cartodb-psql": "git+ssh://git@github.com:Algunenano/node-cartodb-psql#master_base",
@@ -37,7 +37,7 @@
         "sphericalmercator": "1.0.4",
         "step": "~0.0.6",
         "tilelive": "5.12.2",
-        "tilelive-mapnik": "cartodb/tilelive-mapnik#0.6.18-cdb12",
+        "tilelive-mapnik": "github:Algunenano/tilelive-mapnik#cache_move",
         "torque.js": "~2.11.0",
         "underscore": "~1.6.0"
     },
