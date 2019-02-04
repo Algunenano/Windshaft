@@ -1600,7 +1600,7 @@ function describe_compare_renderer() {
             sql :
 "SELECT cartodb_id, St_Transform(tg, 3857) as the_geom FROM ( " +
 "SELECT 2 AS cartodb_id, 'SRID=3857;POINT(-8247459.53332372 4959086.55819354)'::geometry as tg " +
-") _a WHERE tg && !bbox!"
+") _a"
         },
         {
             name: "Works correctly with buffer size 0",
